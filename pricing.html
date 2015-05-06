@@ -52,12 +52,12 @@
                             <div style="display:inline-block; border-radius:4px; overflow:hidden;">
                                 <div style="display:inline-block;">
                                     <!--<p style="width:130px" class="monthly-btn light-grey-button small-switch-button">优惠价</p>-->
-                                    <button id="MonthButton" style="width: 130px" onclick="PriceFunction()" disabled="true">Monthly</button>
+                                    <button id="PButton" style="width: 130px" class="light-grey-button small-switch-button" onclick="PriceFunction()" disabled="true">优惠价</button>
                                 </div>
 
                                 <div style="display:inline-block;">
                                     <!--<p style="width: 130px; box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px inset;" class="yearly-btn white-button small-switch-button">原价</p>-->
-                                    <button id="YearButton" style="width: 130px;" onclick="PriceFunction()">Yearly</button>
+                                    <button id="OButton" style="width: 130px; " class="white-button small-switch-button" onclick="PriceFunction()">原价</button>
                                 </div>
                             </div>
 
@@ -74,19 +74,23 @@
                     </div>
                 </div><script>
 function PriceFunction() {
-                var m = document.getElementById("MonthButton");
-                var y = document.getElementById("YearButton");
+                var pb = document.getElementById("PButton");
+                var ob = document.getElementById("OButton");
                 document.getElementById("Price").style.fontSize = "80px";
                 document.getElementById("Price").style.fontStyle = "italic";
                 document.getElementById("Price").style.fontStyle = "bold";
-                if(m.disabled == false){
-                m.disabled = true;
-                y.disabled = false;
+                if(pb.disabled == false){
+	                ob.className = "white-button small-switch-button"
+	                pb.className = "light-grey-button small-switch-button"
+                pb.disabled = true;
+                ob.disabled = false;
                 var p = "25/h"
                 document.getElementById("Price").innerHTML = p.bold();
                 }else{
-                m.disabled = false;
-                y.disabled = true;
+                pb.disabled = false;
+                ob.disabled = true;
+                pb.className = "white-button small-switch-button"
+	                ob.className = "light-grey-button small-switch-button"
                 var p = "50/h"
                 document.getElementById("Price").innerHTML = p.bold();
                 }    
