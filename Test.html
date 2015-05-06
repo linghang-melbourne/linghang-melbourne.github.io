@@ -46,18 +46,20 @@
                     <div class="well top-border-green-well text-center" style="height:320px">
                         <p class="color-light" style="font-family: adelle; display:inline-block"><b style="font-size:60px;">$</b></p>
 
-                        <p class="yearly" style="font-family: adelle; display: none;"><b style="font-size:80px;"><i>25/h</i></b></p>
+                        <!--<p id="Year" class="yearly" style="font-family: adelle; display: none;"><b style="font-size:80px;"><i>50/h</i></b></p>-->
 
-                        <p class="monthly" style="font-family: adelle; display: inline-block;"><b style="font-size:80px;"><i>25/h</i></b></p>
+                        <p id="Price" class="monthly" style="font-family: adelle; display: inline-block;"><b style="font-size:80px;"><i>25/h</i></b></p>
 
                         <div class="text-center">
                             <div style="display:inline-block; border-radius:4px; overflow:hidden;">
                                 <div style="display:inline-block;">
-                                    <p style="width:130px" class="monthly-btn light-grey-button small-switch-button">月价</p>
+                                    <!--<p style="width:130px" class="monthly-btn light-grey-button small-switch-button">优惠价</p>-->
+                                    <button id="MonthButton"  style="width: 130px" onclick="PriceFunction()">Monthly</button>
                                 </div>
 
                                 <div style="display:inline-block;">
-                                    <p style="width: 130px; box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px inset;" class="yearly-btn white-button small-switch-button">年价</p>
+                                    <!--<p style="width: 130px; box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px inset;" class="yearly-btn white-button small-switch-button">原价</p>-->
+                                    <button id="YearButton" style="width: 130px;" onclick="PriceFunction()">Yearly</button>
                                 </div>
                             </div>
 
@@ -73,6 +75,25 @@
                         </div>
                     </div>
                 </div>
+                
+                <script>
+function PriceFunction() {
+    var m = document.getElementById("MonthButton");
+var y = document.getElementById("YearButton");
+if(m.disabled == false){
+	m.disabled = true;
+	y.disabled = false;
+	
+	document.getElementById("Price").style = "font-family: adelle; display: inline-block;"
+	document.getElementById("Price").innerHTML = "25/h"
+	}else{
+	m.disabled = false;
+	y.disabled = true;
+	document.getElementById("Price").innerHTML = "50/h"
+	}    
+}
+</script>
+                
 
                 <div class="col-lg-4 col-md-5 xl-b-margin">
                     <div class="well top-border-green-well clearfix" style="padding-top:30px; padding-bottom:30px;
