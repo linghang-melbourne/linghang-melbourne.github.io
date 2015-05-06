@@ -12,7 +12,10 @@
 
 <body>
     <!-- Include the template -->
-    <a href="#Top"><img class="goTop" src="images/gotop.png" width="auto" height="auto" alt="Go Top"></a>
+    <a href="#Top"><img class="goTop" src="images/gotop.png" width="auto" height="auto" alt="Go Top"></a> 
+    <a href="#MelB"><img class="navigationMelb" src="images/UofMelb.jpg" width="auto" height="auto"></a>
+    <a href="#RMIT_TafeA"><img class="navigationRMIT" src="images/RMIT.jpg" width="auto" height="auto"></a>
+    <a href="#Monash_B"><img class="navigationMonash" src="images/Monash.jpg" width="auto" height="auto"></a>
 
     <section id="Top" class="hero hero-5">
         <!-- Static navbar -->
@@ -20,9 +23,8 @@
         <nav class="navbar navbar-static-top" style="background-color:transparent">
             <div class="container">
                 <div id="navbar" class="navbar-collapse collapse navmenu-fixed-right">
-	                <a class="logo" href="index.html">
-                        <img src="images/linghanglogo.psd" width="auto" height="120">
-                    </a>
+                    <a class="logo" href="index.html"><img src="images/linghanglogo.psd" width="auto" height="120"></a>
+
                     <ul class="nav navbar-right navbar--list width">
                         <li class="navbar--list-item">
                             <a class="text-white" href="course-list.html">大学课程</a>
@@ -1499,7 +1501,7 @@
                     <div style="display:inline-block; border-radius:4px; overflow:hidden;">
                         <div style="display:inline-block;">
                             <button id="PButton" style="width: 130px" class="light-grey-button small-switch-button" onclick="PriceFunction()" disabled="true">优惠价</button>
-                                                    </div>
+                        </div>
 
                         <div style="display:inline-block;">
                             <button id="OButton" style="width: 130px; " class="white-button small-switch-button" onclick="PriceFunction()">原价</button>
@@ -1517,8 +1519,7 @@
                     <a class="xl-t-margin rounded-button green-button center-block" href="http://goo.gl/forms/RY9LZkqO8t" style="width:90%;">现在加入</a>
                 </div>
             </div>
-        </div>
-        <script>
+        </div><script>
 function PriceFunction() {
                 var pb = document.getElementById("PButton");
                 var ob = document.getElementById("OButton");
@@ -1526,8 +1527,8 @@ function PriceFunction() {
                 document.getElementById("Price").style.fontStyle = "italic";
                 document.getElementById("Price").style.fontStyle = "bold";
                 if(pb.disabled == false){
-	                ob.className = "white-button small-switch-button"
-	                pb.className = "light-grey-button small-switch-button"
+                    ob.className = "white-button small-switch-button"
+                    pb.className = "light-grey-button small-switch-button"
                 pb.disabled = true;
                 ob.disabled = false;
                 var p = "25/h"
@@ -1536,12 +1537,12 @@ function PriceFunction() {
                 pb.disabled = false;
                 ob.disabled = true;
                 pb.className = "white-button small-switch-button"
-	                ob.className = "light-grey-button small-switch-button"
+                    ob.className = "light-grey-button small-switch-button"
                 var p = "50/h"
                 document.getElementById("Price").innerHTML = p.bold();
                 }    
                 }
-                </script>
+        </script>
     </section>
 
     <footer>
