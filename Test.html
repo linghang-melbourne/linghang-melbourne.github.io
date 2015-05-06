@@ -44,9 +44,7 @@
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 xl-b-margin">
                     <div class="well top-border-green-well text-center" style="height:320px">
-                        <p class="color-light" style="font-family: adelle; display:inline-block"><b style="font-size:60px;">$</b></p>
-
-                        <!--<p id="Year" class="yearly" style="font-family: adelle; display: none;"><b style="font-size:80px;"><i>50/h</i></b></p>-->
+                        <p class="color-light" style="font-family: adelle; display:inline-block"><b style="font-size:60px;">$</b></p><!--<p id="Year" class="yearly" style="font-family: adelle; display: none;"><b style="font-size:80px;"><i>50/h</i></b></p>-->
 
                         <p id="Price" class="monthly" style="font-family: adelle; display: inline-block;"><b style="font-size:80px;"><i>25/h</i></b></p>
 
@@ -54,7 +52,7 @@
                             <div style="display:inline-block; border-radius:4px; overflow:hidden;">
                                 <div style="display:inline-block;">
                                     <!--<p style="width:130px" class="monthly-btn light-grey-button small-switch-button">优惠价</p>-->
-                                    <button id="MonthButton"  style="width: 130px" onclick="PriceFunction()">Monthly</button>
+                                    <button id="MonthButton" style="width: 130px" onclick="PriceFunction()" disabled="true">Monthly</button>
                                 </div>
 
                                 <div style="display:inline-block;">
@@ -74,26 +72,26 @@
                             <a class="xl-t-margin rounded-button green-button center-block" href="https://www.datacamp.com/subscriptions/r-programmer-and-data-analyst" style="width:90%;">现在加入</a>
                         </div>
                     </div>
-                </div>
-                
-                <script>
+                </div><script>
 function PriceFunction() {
-    var m = document.getElementById("MonthButton");
-var y = document.getElementById("YearButton");
-if(m.disabled == false){
-	m.disabled = true;
-	y.disabled = false;
-	
-	document.getElementById("Price").style = "font-family: adelle; display: inline-block;"
-	document.getElementById("Price").innerHTML = "25/h"
-	}else{
-	m.disabled = false;
-	y.disabled = true;
-	document.getElementById("Price").innerHTML = "50/h"
-	}    
-}
-</script>
-                
+                var m = document.getElementById("MonthButton");
+                var y = document.getElementById("YearButton");
+                document.getElementById("Price").style.fontSize = "80px";
+                document.getElementById("Price").style.fontStyle = "italic";
+                document.getElementById("Price").style.fontStyle = "bold";
+                if(m.disabled == false){
+                m.disabled = true;
+                y.disabled = false;
+                var p = "25/h"
+                document.getElementById("Price").innerHTML = p.bold();
+                }else{
+                m.disabled = false;
+                y.disabled = true;
+                var p = "50/h"
+                document.getElementById("Price").innerHTML = p.bold();
+                }    
+                }
+                </script>
 
                 <div class="col-lg-4 col-md-5 xl-b-margin">
                     <div class="well top-border-green-well clearfix" style="padding-top:30px; padding-bottom:30px;
@@ -143,7 +141,6 @@ if(m.disabled == false){
         </div>
     </section>
 
-    
     <footer>
         <div class="container">
             <div class="row"></div>
