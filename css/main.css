@@ -5129,7 +5129,15 @@ img.goTop {
 	position:fixed;
 	z-index:1;
 	right:0;
+	bottom:10%;
+	
+}
+img.goEnd {
+	position:fixed;
+	z-index:1;
+	right:0;
 	bottom:0;
+	
 }
 
 img.navigationMelb {
