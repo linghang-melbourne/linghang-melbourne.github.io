@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!-- saved from url=(0032)https://www.datacamp.com/courses -->
+<!-- saved from url=(0032)https://www.datacamp.com/pricing -->
 
 <html class="wf-adelle-i4-active wf-adelle-i7-active wf-adelle-n4-active wf-adelle-n7-active wf-ffdagnywebpro-i4-active wf-ffdagnywebpro-i7-active wf-ffdagnywebpro-n4-active wf-ffdagnywebpro-n7-active wf-active">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- SEO -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <title>领航教育 | 期末冲刺课程列表</title>
+    <title>领航教育 | 课程价格</title>
     <link href="css/main.css" media="all" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
@@ -13,56 +13,17 @@
 <body>
     <!-- Include the template -->
 
-    <div class="menuButton menuOpen"></div>
-
-    <div class="navWrapper translate">
-        <ul style="list-style-type:none">
-            <li>
-                <a href="#MelB" class="homeLink">墨大商科</a>
-            </li>
-
-            <li>
-                <a href="#MelE" class="homeLink">墨大工程</a>
-            </li>
-
-            <li>
-                <a href="#MelM" class="homeLink">墨大数学</a>
-            </li>
-
-            <li>
-                <a href="#RMIT_TafeA" class="homeLink">RMIT Tafe 会计</a>
-            </li>
-
-            <li>
-                <a href="#RMIT_TafeB" class="homeLink">RMIT Tafe 商科</a>
-            </li>
-
-            <li>
-                <a href="#RMIT_TafeIT" class="homeLink">RMIT Tafe IT</a>
-            </li>
-
-            <li>
-                <a href="#RMIT_TafeC" class="homeLink">RMIT Tafe 金融</a>
-            </li>
-
-            <li>
-                <a href="#RMIT_A" class="homeLink">RMIT 会计</a>
-            </li>
-
-            <li>
-                <a href="#Monash_B" class="homeLink">Monash 商科</a>
-            </li>
-        </ul>
-    </div><!-- navwrapper --><a href="#Top"><img class="goTop" src="images/gotop.png" width="auto" height="auto" alt="Go Top"></a>
-
-    <section id="Top" class="hero hero-5">
+    <section class="hero hero-1">
         <!-- Static navbar -->
 
         <nav class="navbar navbar-static-top" style="background-color:transparent">
             <div class="container">
-                <div id="navbar" class="navbar-collapse collapse navmenu-fixed-right">
-                    <a class="logo" href="index.html"><img src="images/linghanglogo.psd" width="auto" height="120"></a>
+                <div class="navbar-header"></div>
 
+                <div id="navbar" class="navbar-collapse collapse navmenu-fixed-right">
+	                <a class="logo" href="index.html">
+                        <img src="images/linghanglogo.psd" width="auto" height="100%">
+                    </a>
                     <ul class="nav navbar-right navbar--list width">
                         <li class="navbar--list-item">
                             <a class="text-white" href="course-list.html">大学课程</a>
@@ -76,1488 +37,43 @@
             </div>
         </nav>
 
-        <div class="container xl-padding">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="xl-b-margin text-white">
-                        <h3>领航教育大学课程辅导</h3>
-
-                        <h1 class="l-b-margin" style="font-size:3em">期末冲刺课程列表</h1>
-
-                        <p style="font-size:20px">University of Melbourne(商科，工程，数学)、RMIT Tafe、RMIT（会计）、Monash（商科）</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="light-bg">
         <div class="container xxl-padding">
+            <div class="text-white text-center xxl-b-margin">
+                <h1>加入小伙伴们，一起期末冲刺，抱大腿！</h1>
+
+                <p class="color-light" style="font-size:1.5em">超过500个小伙伴们都在领航准备期末冲刺，你还在等什么？</p>
+            </div>
+
             <div class="row">
-                <div class="col-md-8">
-                    <!-- Step  -->
+                <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 xl-b-margin">
+                    <div class="well top-border-green-well text-center" style="height:320px">
+                        <p class="color-light" style="font-family: adelle; display:inline-block"><b style="font-size:60px;">$</b></p><!--<p id="Year" class="yearly" style="font-family: adelle; display: none;"><b style="font-size:80px;"><i>50/h</i></b></p>-->
 
-                    <div id="MelB" class="row">
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
-                            <h2 style="font-size: 20px;">墨尔本大学商科</h2>
+                        <p id="Price" class="monthly" style="font-family: adelle; display: inline-block;"><b style="font-size:80px;"><i>25/h</i></b></p>
+
+                        <div class="text-center">
+                            <div style="display:inline-block; border-radius:4px; overflow:hidden;">
+                                <div style="display:inline-block;">
+                                    <!--<p style="width:130px" class="monthly-btn light-grey-button small-switch-button">优惠价</p>-->
+                                    <button id="PButton" style="width: 130px" class="light-grey-button small-switch-button" onclick="PriceFunction()" disabled="true">优惠价</button>
+                                </div>
+
+                                <div style="display:inline-block;">
+                                    <!--<p style="width: 130px; box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px inset;" class="yearly-btn white-button small-switch-button">原价</p>-->
+                                    <button id="OButton" style="width: 130px; " class="white-button small-switch-button" onclick="PriceFunction()">原价</button>
+                                </div>
+                            </div>
+
+                            <p class="color-light" style="font-size:0.9em;">在4月30日之前报名可享受优惠价格</p>
                         </div>
 
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-                            <p class="label label-success pull-right" style="background:#576E78;">12 Courses</p>
-                        </div>
-                    </div>
-                    <hr>
 
-                    <p class="xl-b-margin">R is the leading open-source programming language in data science and statistics. It is used by students, academics and professionals to perform data analysis, and for building data-driven solutions and applications.</p>
 
-                    <div class="col-md-offset-1 xxl-b-margin">
-                        <!-- Course -->
-                        <a href="courses/UofMelb/ACCT10003ARA.html"><!--<a href="https://www.datacamp.com/courses/free-introduction-to-r">-->
-
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">ACCT10003 - Accounting Reports and Analysis</h6>
-
-                                        <p>作为会计专业入门的必修课之一，Accounting Reports and Analysis介绍了会计的基础知识以及会计在金融市场和内部组织中的地位。要点包含了：财务报表的组成元素,关键资产和管理激励机制的不同选择;财务报表数据的分析和解释;在组织的管理计划、控制和决策中会计信息的使用方法。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" src="courses/QRCode/ACCT1003ARA.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/BLAW20001.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">BLAW20001 - Corporate Law</h6>
-
-                                        <p>详细讲解了一部通过控制来达到安排，监管乃至终止大小公司的法律。具体分析了内部控制对公司管理，对外界乃至对资本的筹集和证券市场的影响。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" src="courses/QRCode/BLAW20001.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/FNCE10001.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">FNCE10001 - Finance 1</h6>
-
-                                        <p>介绍了金融学的概念，并阐述了金融学的基本原则和相关知识。要点囊括了直接融资，安全收益率、银行和货币市场、债券市场和股票市场,离岸金融和外汇的行为金融变量,利率风险管理以及衍生证券。这些要点将结合实例，对商业中存在的风险、回报和现值进行具体分析。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" src="courses/QRCode/FNCE10001.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ACTL20001.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">ACTL20001 - Financial Mathematics 1</h6>
-
-                                        <p>涵括了复利函数;评估系列型支付,包括现金和利润这样的与时间有关的连续函数,货物价值的函数式;贷款合同和投资项目的财务分析以及特征。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" src="courses/QRCode/ACTL20001.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ECON10004.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">ECON10004 - Introductory Microeconomics</h6>
-
-                                        <p>系统性地介绍了微观经济世界中的定义和规则。要点包括了完全竞争市场、福利分析和政府在经济中的作用,公司(生产成本)理论,博弈论和市场结构对资源配置的影响。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" height="70" src="courses/QRCode/FINCE10004.jpg" width="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ECON10003.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">ECON10003 - Introductory Macroeconomics</h6>
-
-                                        <p>系统性地介绍了宏观经济世界中的定义和规则。要点包括了生产和就业等经济总量中一般价格的水平和通货膨胀,汇率,利率,货币政策和财政政策、国际收支和经济增长。特别针对目前世界上出现的较大宏观问题和政策进行具体分析。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" height="70" src="courses/QRCode/ECON10003.jpg" width="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ECON10005.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">ECON10005 - Quantitative Methods 1</h6>
-
-                                        <p>作为商科中最重要的一门基础课，QM1为所有大二的quantitative科目打下了基础。要点包括了金融数学;位置的度量和分散;概率,随机变量和预期值;抽样设计;评估和测试使用正常和t分布;简单的回归和相关性。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" src="courses/QRCode/ECON10005.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ECON20003.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">ECON20003 - Quantitative Methods 2</h6>
-
-                                        <p>衔接了QM1的基本概念，对会计，管理和市场营销实例进行具体分析，从数学的角度理解商业。要点包含了统计;检测人群的位置;简单地使用多元回归与时间序列横截面数据,包括推测,假设和检验,诊断;对数函数。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" src="courses/QRCode/ECON20003.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/FNCE20001.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">FNCE20001 - Business Finance</h6>
-
-                                        <p>对以下所有要点进行了阐述：澳大利亚金融行业的基本政策，风险资产定价理论,资本资产定价模型;资本预算的基本原理,包括允许通胀的方法,治疗风险;企业融资的工具,资本结构和股利政策的理论与实践决定;期权和期货等复杂的金融工具。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" src="courses/QRCode/FNCE20001.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ACCT10003APA.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">ACCT10003 - Accounting Process and Analysis</h6>
-
-                                        <p>作为会计专业入门的必修课之一，Accounting Process and Analysis系统性地介绍了当今商界核心的业务流程。通过记录和分析基础的业务流程，来学习会计占息系统的操作以及作用，并深入了解与收入和支出密不可分的核心业务流程事务周期以及业务报告。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" height="70" src="courses/QRCode/ACCT10003APA.jpg" width="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ACCT10002.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">ACCT10002 - Introductory Financial Accounting</h6>
-
-                                        <p>本课从填表人的角度来完成财务报表。通过学习会计记录与其报告的方法，对相关交易系统的最终判断和决策进行基础的财务报告。结合目前澳大利亚会计事务所的标准，学习如何完成一份合格的会计报告。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" src="courses/QRCode/ACCT10002.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ACCT20001.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px; margin-top: 15px; font-size: 1.15rem;">ACCT20001 - Cost Management</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Introduction to R" src="courses/QRCode/ACCT20001.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a>
-                    </div><!-- Step -->
-
-                    <div id="MelE" class="row">
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
-                            <h2 style="font-size: 20px;">墨尔本大学工程</h2>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-                            <p class="label label-success pull-right" style="background:#576E78;">5 Courses</p>
+                        <div style="width: 100%; display: inline-block;">
+                            <a class="xl-t-margin rounded-button green-button center-block" href="http://goo.gl/forms/RY9LZkqO8t" style="width:90%;">现在加入</a>
                         </div>
                     </div>
-                    <hr>
-
-                    <p class="xl-b-margin">A selection of courses by prof. Andrew Conway (Princeton University) that provide a comprehensive yet friendly introduction to fundamental concepts of statistics.</p>
-
-                    <div class="col-md-offset-1 xxl-b-margin">
-                        <!-- Course -->
-                        <a href="courses/UofMelb/COMP20005.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom:0px; margin-top:15px; font-size:1.15rem;">COMP20005 - Engineering Computation</h6>
-
-                                        <p>这门课将引导学生用更高级的代码去解决一些工程方面的难题。学习目标包括了：算法解决问题、基本数据类型、数字和字符近似数值计算、错误基本程序结构包括顺序、选择、重复功能、简单的数据存储结构、变量、数组和结构、根方程和线性代数方程组、曲线拟合和样条函数、内插和外推、数值微分和集成。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/COMP20005.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ENGR10004.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom:0px; margin-top:15px; font-size:1.15rem;">ENGR10004 - Engineering System Design 1</h6>
-
-                                        <p>这门课将重心更多地放在了工程设计的具体概念以及操作方法上。要点囊括了：解决问题的工程方法,数学模型使用适当的软件工具,数据收集,数据分析,流体力学,工程过程中物质和能量守恒,在两相流质量中的输运,报告写作、沟通技巧。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/ENGR10004.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/PHYC10003.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom:0px; margin-top:15px; font-size:1.15rem;">PHYC10003 - Physics 1</h6>
-
-                                        <p>作为衔接VCE物理的大学基础课程，本科不仅拓宽了高中所学的物理知识点，而且对于相对论，机械以及能量有着更深刻的概念理解。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/PHYC10003.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ELEN90055.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom:0px; margin-top:15px; font-size:1.15rem;">ELEN90055 - Control System</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/ELEN90055.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/ENGR30002.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom:0px; margin-top:15px; font-size:1.15rem;">ENGR30002 - Fluid Mechanics</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/ENGR30002.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a>
-                    </div><!-- Step -->
-
-                    <div id="MelM" class="row">
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
-                            <h2 style="font-size: 20px;">墨尔本大学数学</h2>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-                            <p class="label label-success pull-right" style="background:#576E78;">5 Courses</p>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <p class="xl-b-margin">Manipulate your data in a format that allows convenient processing. In this section you are introduced to many of the handy tools R offers for performing data manipulations.</p>
-
-                    <div class="col-md-offset-1 xxl-b-margin">
-                        <!-- Course -->
-                        <a href="courses/UofMelb/MAST20004.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">MAST20004 - Probability</h6>
-
-                                        <p>本科全面介绍了基础的数学概率以及概率建模的基本概念。要点包括了随机实验和样本空间、概率公理和定理,离散和连续随机变量/分布(包括位置的度量、传播和形状),如何建立并生成函数,随机变量的独立性和依赖性(协方差和相关性),随机变量的分布(包括中心极限定理)的概率分布和经常出现在现实世界中的现实模型。同时本课也要求使用一维,二维(特别是二元正态)的基本概率模型包括泊松过程和马尔可夫链。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/MAST20004.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/MAST10005.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">MAST10005 - Calculus 1</h6>
-
-                                        <p>微分学包括求导数的运算，是一套关于变化率的理论。它使得函数、速度、加速度和曲线的斜率等均可用一套通用的符号进行演绎。积分学，包括求积分的运算，为定义和计算面积、体积等提供一整套通用的方法。作为对于VCE高数的过渡科目，Level 1的微积分更强调巩固微积分的基础知识要点。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/MAST10005.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/MAST10006.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">MAST10006 - Calculus 2</h6>
-
-                                        <p>微分学包括求导数的运算，是一套关于变化率的理论。它使得函数、速度、加速度和曲线的斜率等均可用一套通用的符号进行演绎。积分学，包括求积分的运算，为定义和计算面积、体积等提供一整套通用的方法。Level 2的微积分要点包括：函数的极限性和连续性变量序列,数列的计算,双曲线函数以及它们的倒数,水平曲线,偏导数,链规则偏导数,方向导数,切线函数和多元函数的极值；复杂指数和二重积分。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/MAST10006.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/MAST10007.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">MAST10007 - Linear Algebra</h6>
-
-                                        <p>线性代数是关于向量空间和线性映射的一个数学分支。它包括对线、面和子空间的研究，同时也涉及到所有的向量空间的一般性质。要点包含了：线性方程组、矩阵和行列式;向量,叉积,标量三重积,线条和平面,向量空间,线性独立基础,维度;线性转换,特征值,特征向量,最小二乘估计,对称和正交矩阵。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/MAST10007.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/UofMelb/MAST20029.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">MAST20029 - Engineering Mathematics</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/MAST20029.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a>
-                    </div><!-- Step -->
-
-                    <div id="RMIT_TafeA" class="row">
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
-                            <h2 style="font-size: 20px;">RMIT Tafe-Accounting</h2>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-                            <p class="label label-success pull-right" style="background:#576E78;">4 Courses</p>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <p class="xl-b-margin">Data visualizations is used as a data exploration tool and as communication tool for temporary or final results. Learn everything on one of the main strengths of R: creating stunning and informative graphical visualizations.</p>
-
-                    <div class="col-md-offset-1 xxl-b-margin">
-                        <!-- Course -->
-                        <a href="courses/RMIT_TAFE/ACCT5305C.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ACCT-5305C-AUSCY-S1 - Carry out business activity and installment activity statement tasks</h6>
-
-                                        <p>这门课系统性地分析了商业中的各种结果以及商业税收中所需的技能和知识点。这门课中的知识点已经被广泛应用于各种各样的金融服务领域。具体包括了企业内适用于个人和工作角色许可、立法、监管或认证要求的工作岗位,包括税法的各个方面(包括但不限于1936年和1997年所得税评估法案),其他相关立法和商品及服务税(GST)裁决。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Visualization with ggvis" src="courses/QRCode/RMIT_T_Accounting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/COSC5937C.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">COSC-5937C-AUSCY-S1 - Produce job costing information</h6>
-
-                                        <p>本科覆盖了能力计算和记录了工作成本的产品和服务。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_T_Accounting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/OHTH5844C.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">OHTH-5844C-AUSCY-S1 - Contribute to health and safety of self and others</h6>
-
-                                        <p>这门课将教授学生健康与安全的相关技能和知识,参与工作健康和安全(WHS的)流程来保护自己和他人的健康和安全的重要性。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_T_Accounting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- Course -->
-                         <a href="courses/RMIT_TAFE/JUST5731C.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">JUST-5731C-AUSCY-S1 - Make decisions in a legal context</h6>
-
-                                        <p>本课介绍了如何套用一些简单的商业概念在法律环境中做出决定。要点包括了识别关键机构的主要角色和法律体系,确保一切商业操作合法。所有知识点在全领域的金融服务产业中一概通用。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_T_Accounting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a>
-                    </div><!-- Step -->
-
-                    <div class="row">
-                        <div id="RMIT_TafeB" class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
-                            <h2 style="font-size: 20px;">RMIT Tafe-Business</h2>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-                            <p class="label label-success pull-right" style="background:#576E78;">4 Courses</p>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <p class="xl-b-margin">Data visualizations is used as a data exploration tool and as communication tool for temporary or final results. Learn everything on one of the main strengths of R: creating stunning and informative graphical visualizations.</p>
-
-                    <div class="col-md-offset-1 xxl-b-margin">
-                        <!-- Course -->
-                        <a href="courses/RMIT_TAFE/MKTG1296.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">MKTG-1296-AUSCY-S1 - Marketing Principles</h6>
-
-                                        <p>本科结合现实生活中的例子具体分析了一些市场经济中出现的原则。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Visualization with ggvis" src="courses/QRCode/RMIT_Business.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/BUSM4360.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">BUSM-4360-AUSCY-S1 - Design for Business</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Business.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/ISYS2427.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ISYS-2427-AUSCY-S1 - Business Computing</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Business.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/ECON1247.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ECON-1247-AUSCY-S1 - Prices and Markets</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Business.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a>
-                    </div><!-- Step -->
-
-                    <div id="RMIT_TafeIT" class="row">
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
-                            <h2 style="font-size: 20px;">RMIT Tafe-Information Technology</h2>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-                            <p class="label label-success pull-right" style="background:#576E78;">7 Courses</p>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <p class="xl-b-margin">Data visualizations is used as a data exploration tool and as communication tool for temporary or final results. Learn everything on one of the main strengths of R: creating stunning and informative graphical visualizations.</p>
-
-                    <div class="col-md-offset-1 xxl-b-margin">
-                        <!-- Course -->
-                        <a href="courses/RMIT_TAFE/COSC6115C.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">COSC-6115C-AUSCY-S1 - Create a markup language document to specification</h6>
-
-                                        <p>学会如何创建并保存一个标记语言文档到规定的文本编辑器。学生将以团队的形式进行设计,在学期末完成一个小型企业网站,HTML和CSS的最新标准将被应用到这门课。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Visualization with ggvis" src="courses/QRCode/RMIT_IT.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/COSC6116C.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">COSC-6116C-AUSCY-S1 - Configure, verify and troubleshoot WAN links and IP services in a medium enterprise network</h6>
-
-                                        <p>这门课意在使用适当的工具、设备、软件和协议来安装,操作,并最终解决中小企业中的WAN连接以及IP端口服务的连接问题。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_IT.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/BUSM6394C.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">BUSM-6394C-AUSCY-S1 - Develop workplace policy and procedures for sustainability</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_IT.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/OHTH5829C.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">OHTH-5829C-AUSCY-S1 - Ensure a safe workplace</h6>
-
-                                        <p>工业生产中的安全问题将在本课的学习过程中得到具体研究和分析。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_IT.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/COSC6112C.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">COSC-6112C-AUSCY-S1 - Use structured query language</h6>
-
-                                        <p>使用结构化查询语言(SQL)来定义、创建和操纵数据库结构。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_IT.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/COSC6111C">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">COSC-6111C-AUSCY-S1 - Design a database</h6>
-
-                                        <p>本课要点包括了数据字典的概念理解,指数,DBMS约束、业务规则、备份和恢复。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_IT.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/COSC6113C.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">COSC-6113C-AUSCY-S1 - Apply introductory object-oriented language skills</h6>
-
-                                        <p>本课教授了如何使用现有工具、文档、调试工具和测试技术支持工具来编写代码。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_IT.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a>
-                    </div><!-- Step -->
-
-                    <div id="RMIT_TafeC" class="row">
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
-                            <h2 style="font-size: 20px;">RMIT Tafe-Commerce</h2>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-                            <p class="label label-success pull-right" style="background:#576E78;">4 Courses</p>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <p class="xl-b-margin">Data visualizations is used as a data exploration tool and as communication tool for temporary or final results. Learn everything on one of the main strengths of R: creating stunning and informative graphical visualizations.</p>
-
-                    <div class="col-md-offset-1 xxl-b-margin">
-                        <!-- Course -->
-                        <a href="courses/RMIT_TAFE/ISYS3314.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ISYS-3314-AUSCY-S1 - Business Computing</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Visualization with ggvis" src="courses/QRCode/RMIT_Commerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/LAW2497.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">LAW-2497-AUSCY-S1 - Commercial Law</h6>
-
-                                        <p>本科覆盖了伙伴关系、破产、信托、业务名称、公司和协会名称和特许经营。</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Commerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/ECON1275.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ECON-1275-AUSCY-S1 - Prices and Markets</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Commerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course -->
-                         <a href="courses/RMIT_TAFE/ACCT2213.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ACCT-2213-AUSCY-S1 - Accounting in Organisations and Society</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Commerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a>
-                    </div><!-- Step -->
-
-                    <div id="RMIT_A" class="row">
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
-                            <h2 style="font-size: 20px;">RMIT会计</h2>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-                            <p class="label label-success pull-right" style="background:#576E78;">10 Courses</p>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <p class="xl-b-margin">The amount of data in the world is growing rapidly, and when dealing with data sets these will become bigger and bigger. You will need to understand how to process, visualize, and model terrabyte- class data sets.</p>
-
-                    <div class="col-md-offset-1 xxl-b-margin">
-                        <!-- Course 
-            <a href="https://www.datacamp.com/courses/big-data-revolution-r-enterprise-tutorial">
-              <div class="track-well l-b-margin">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="content">
-                      <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">Revolution R Enterprise</h6>
-                      <p>Perform operations such as summarize, visualize and more on big data.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badge">
-                  <img alt="Data Manipulation with dplyr" height="70" src="./course-list_files/rre-5202bf27362c1443894263186484ce0c.png" width="70">
-                </div>
-              </div>
-            </a>
-            -->
-                        <!-- Course ACCT1014-->
-                        <a href="courses/RMIT/ACCT1014.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ACCT1014 - Accounting, Behaviour and Organisations (ABO)</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Acconting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course ACCT1048-->
-                         <a href="courses/RMIT/ACCT1048.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ACCT1048 - Financial Accountability and Reporting (FAR)</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Acconting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course ACCT1060-->
-                         <a href="courses/RMIT/ACCT1060.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ACCT1060 - Management Accounting and Business (MAB)</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Acconting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course ACCT1064-->
-                         <a href="courses/RMIT/ACCT1064.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ACCT1064 - Cost Analysis and Applications</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Acconting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course ACCT1077-->
-                         <a href="courses/RMIT/ACCT1077.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">ACCT1077 - Financial Accounting Theory</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Acconting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course LAW2442-->
-                         <a href="courses/RMIT/LAW2442.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">LAW2442 - Commercial Law</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Acconting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course LAW2450-->
-                         <a href="courses/RMIT/LAW2450.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">LAW2450 - Company Law</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Acconting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course LAW2453-->
-                         <a href="courses/RMIT/LAW2453.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">LAW2453 - Taxation 1</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Acconting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course LAW2471-->
-                         <a href="courses/RMIT/LAW2471.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">LAW2471 - Taxation Law and Practice</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Acconting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a> <!-- Course LAW2480-->
-                         <a href="courses/RMIT/LAW2480.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem;">LAW2480 - Business and Corporations Law</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Data Manipulation with dplyr" src="courses/QRCode/RMIT_Acconting.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a>
-                    </div><!-- Step -->
-
-                    <div id="Monash_B" class="row">
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
-                            <h2 style="font-size: 20px;">Monash大学商科</h2>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
-                            <p class="label label-success pull-right" style="background:#576E78;">30 Courses</p>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <p class="xl-b-margin">Every day new tools, packages, and software applications for R are launched. In this section you can discover some of the best tools out there, and learn how to use them in your daily routine.</p>
-
-                    <div class="col-md-offset-1 xxl-b-margin">
-                        <!-- Course (with coming soon)             <div class="track-well l-b-margin">
-              <div class="overlay">Coming Soon</div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="content">
-                    <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">Working with the RStudio IDE</h6>
-                    <p>How to use the RStudio IDE, R’s leading integrated development environment</p>
-                  </div>
-                </div>
-              </div>
-              <div class="badge">
-                <img alt="Coming soon" height="70" src="./course-list_files/coming_soon-60dab6d2b383b2ebb5ea67b960dc4a60.png" width="70">
-              </div>
-            </div>
-            
-            <div class="track-well l-b-margin">
-              <a href="https://www.datacamp.com/courses/r-for-sas-spss-and-stata-users-r-tutorial">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="content">
-                      <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">R for SAS, SPSS and STATA users</h6>
-                      <p>Focus on translating you existing knowledge of commercial software into R.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badge">
-                  <img alt="Bob m" height="70" src="./course-list_files/bob_m-b8ef612c5356242478f84b8bda87191a.svg" width="70">
-                </div>
-              </a>
-            </div>
-            <div class="track-well l-b-margin">
-              <a href="https://www.datacamp.com/courses/quandl-r-tutorial">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="content">
-                      <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">Quandl and R</h6>
-                      <p>Access Quandl from within R, the easiest way to find data on the internet.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badge">
-                  <img alt="Quandl2" height="70" src="./course-list_files/quandl2-9834627ab873f02e9de4e55bbbc52da6.svg" width="70">
-                </div>
-              </a>
-            </div>-->
-                        <!-- course ACF2851-->
-                        <a href="courses/Monash/ACF2851.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF2851 - Accounting information systems and financial modeling</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ETF5930-->
-                         <a href="courses/Monash/ETF5930.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ETF5930 - Financial econometrics</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BFF3121-->
-                         <a href="courses/Monash/BFF3121.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BFF3121 - Investments and portfolio management</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ECC1100-->
-                         <a href="courses/Monash/ECC1100.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ECC1100 - Principles of Macroeconomics</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BFS5959-->
-                         <a href="courses/Monash/BFS5959.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BFS5959 - Accounting and Finance for International Managers</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course MKC1200-->
-                         <a href="courses/Monash/MKC1200.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">MKC1200 - Principles of marketing</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF1000-->
-                         <a href="courses/Monash/ACF1000.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF1000 - Principles of accounting and finance</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ECF5953-->
-                         <a href="courses/Monash/ECF5953.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ECF5953 - Economics</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACB1002-->
-                         <a href="courses/Monash/ACB1002.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACB1002 - Introduction to financial accounting</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF5130-->
-                         <a href="courses/Monash/ACF5130.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF5130 - Financial statement analysis and business valuation</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BFF2401-->
-                         <a href="courses/Monash/BFF2401.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BFF2401 - Commercial banking and finance</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BTF5903-->
-                         <a href="courses/Monash/BTF5903.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BTF5903 - Law and business decisions</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course MGF1010-->
-                         <a href="courses/Monash/MGF1010.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">MGF1010 - Introduction to management</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BFF2631-->
-                         <a href="courses/Monash/BFF2631.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BFF2631 - Financial Management</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF5903-->
-                         <a href="courses/Monash/ACF5903.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF5903 - Accounting for business</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BTF5965-->
-                         <a href="courses/Monash/BTF5965.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BTF5965 - Taxation law</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BTF3931-->
-                         <a href="courses/Monash/BTF3931.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BTF3931 - Taxation law</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BTF1010-->
-                         <a href="courses/Monash/BTF1010.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BTF1010 - Commercial law</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BTF5950-->
-                         <a href="courses/Monash/BTF5950.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BTF5950 - Business and corporations law</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF5955-->
-                         <a href="courses/Monash/ACF5955.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF5955 - Management accounting</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BFF5040-->
-                         <a href="courses/Monash/BFF5040.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BFF5040 - Advanced security analysis</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF2491-->
-                         <a href="courses/Monash/ACF2491.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF2491 - Company reporting</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF2391-->
-                         <a href="courses/Monash/ACF2391.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF2391 - Cost information for decision making</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BFF5915-->
-                         <a href="courses/Monash/BFF5915.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BFF5915 - Options, futures and risk management</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF5956-->
-                         <a href="courses/Monash/ACF5956.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF5956 - Advanced Financial Accounting</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF5958-->
-                         <a href="courses/Monash/ACF5958.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF5958 - Accounting information and systems modeling</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF5950-->
-                         <a href="courses/Monash/ACF5950.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF5950 - Introductory Accounting</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF5953-->
-                         <a href="courses/Monash/ACF5953.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF5953 - Financial accounting</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course BFF5954-->
-                         <a href="courses/Monash/BFF5954.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">BFF5954 - Business Finance</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a><!-- course ACF2851-->
-                         <a href="courses/Monash/ACF2851.html">
-                        <div class="track-well l-b-margin">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content">
-                                        <h6 style="margin-bottom: 0px;margin-top: 15px; font-size: 1.15rem; color:#dd5c5c">ACF2851 - Accounting information systems and financial modeling</h6>
-
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="badge"><img alt="Coming soon" src="courses/QRCode/MonashCommerce.jpg" width="70" height="70" onmouseover="this.width='100';this.height='100'" onmouseout="this.width='70';this.height='70'"></div>
-                        </div></a>
-                    </div>
-                </div><!-- Authors -->
-
-                <div class="col-md-3 col-md-offset-1 hidden-xs hidden-sm">
-                    <!--<div class="well well-white well-shadow xxl-margin text-center">
-                        <h4 class="l-margin">In collaboration with</h4>
-
-                        <div class="row l-b-margin"><img alt="RStudio" src="./course-list_files/Rstudio-85ce2e15d02f561cd227a9b162aa750c.png" width="100"></div>
-
-                        <div class="row l-b-margin"><img alt="RStudio" src="./course-list_files/revolution-analytics-308535f79f3059c5025a11ba61eabd69.png" width="100"></div>
-                    </div>-->
-
-                    <div class="well well-white well-shadow xxl-margin text-center">
-                        <h4 class="l-margin">Courses given by</h4>
-
-                        <div class="row l-b-margin">
-                            <div class="col-md-5 col-md-offset-1">
-                                <img alt="Jonathan Cornelissen" height="75" src="images/Lecturer/DingChang.png" style="border-radius: 50%" width="75">
-
-                                <p class="color-light">丁畅老师</p>
-                            </div>
-
-                            <div class="col-md-5">
-                                <img alt="Andrew Conway" height="75" src="images/Lecturer/HaiZhou.png" style="border-radius: 50%" width="75">
-
-                                <p class="color-light">海州老师</p>
-                            </div>
-                        </div>
-
-                        <div class="row l-b-margin">
-                            <div class="col-md-5 col-md-offset-1">
-                                <img alt="Garret Grolemund" height="75" src="images/Lecturer/TianLang.png" style="border-radius: 50%" width="75">
-
-                                <p class="color-light">天朗老师</p>
-                            </div>
-
-                            <div class="col-md-5">
-                                <img alt="Jeremy Reynolds" height="75" src="images/Lecturer/YaTing.png" style="border-radius: 50%" width="75">
-
-                                <p class="color-light">雅婷老师</p>
-                            </div>
-                        </div>
-
-                        <div class="row l-b-margin">
-                            <div class="col-md-5 col-md-offset-1">
-                                <img alt="Bob Muenchen" class="top-position" height="75" src="images/Lecturer/YangTan.png" style="border-radius: 50%" width="75">
-
-                                <p class="color-light">杨琛老师</p>
-                            </div>
-                        </div><!--
-                        <div class="row l-b-margin">
-                            <a href="https://twitter.com/EricZivot" target="_blank" style="color:black">
-                            <div class="col-md-5 col-md-offset-1">
-                                <img alt="Eric Zivot" height="75" src="./course-list_files/zivot-6237c88a82bb2653a87de6ed7653d04f.jpeg" style="border-radius: 50%" width="75">
-
-                                <p class="color-light">Eric Zivot</p>
-                            </div></a> <a href="https://twitter.com/arun_sriniv" target="_blank" style="color:black">
-                            <div class="col-md-5">
-                                <img alt="Arun Srinivasan" height="75" src="./course-list_files/arun-b5a72ae11827e83809c2a5b52730b71f.png" style="border-radius: 50%" width="75">
-
-                                <p class="color-light">Arun Srinivasan</p>
-                            </div></a>
-                        </div>
-
-                        <div class="row l-b-margin">
-                            <a href="https://twitter.com/MattDowle" target="_blank" style="color:black">
-                            <div class="col-md-5 col-md-offset-1">
-                                <img alt="Matt Dowle" height="75" src="./course-list_files/matt-2780a6999bb65a987ee7f534bf1ec482.jpg" style="border-radius: 50%" width="75">
-
-                                <p class="color-light">Matt Dowle</p>
-                            </div></a> <a href="https://twitter.com/richardpugh" target="_blank" style="color:black">
-                            <div class="col-md-5">
-                                <img alt="Richard Pugh" height="75" src="./course-list_files/richard-88213d35b794385c9b92353cb28c68b6.jpg" style="border-radius: 50%" width="75">
-
-                                <p class="color-light">Richard Pugh</p>
-                            </div></a>
-                        </div>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bottom-cta">
-        <div class="container xxl-padding">
-            <div class="well top-border-green-well text-center" style="height:320px">
-                <p class="color-light" style="font-family: adelle; display:inline-block"><b style="font-size:60px;">$</b></p>
-
-                <p id="Price" class="monthly" style="font-family: adelle; display: inline-block;"><b style="font-size:80px;"><i>25/h</i></b></p>
-
-                <div class="text-center">
-                    <div style="display:inline-block; border-radius:4px; overflow:hidden;">
-                        <div style="display:inline-block;">
-                            <button id="PButton" style="width: 130px" class="light-grey-button small-switch-button" onclick="PriceFunction()" disabled="true">优惠价</button>
-                        </div>
-
-                        <div style="display:inline-block;">
-                            <button id="OButton" style="width: 130px; " class="white-button small-switch-button" onclick="PriceFunction()">原价</button>
-                        </div>
-                    </div>
-
-                    <p class="color-light" style="font-size:0.9em;">在4月30日之前报名可享受优惠价格</p>
-                </div>
-
-                <div class="yearly" style="width: 100%; display: none !important;">
-                    <a class="xl-t-margin rounded-button green-button center-block" href="http://goo.gl/forms/RY9LZkqO8t" style="width:90%;">现在加入</a>
-                </div>
-
-                <div class="monthly" style="width: 100%; display: inline-block;">
-                    <a class="xl-t-margin rounded-button green-button center-block" href="http://goo.gl/forms/RY9LZkqO8t" style="width:90%;">现在加入</a>
-                </div>
-            </div>
-        </div><script>
+                </div><script>
 function PriceFunction() {
                 var pb = document.getElementById("PButton");
                 var ob = document.getElementById("OButton");
@@ -1565,8 +81,8 @@ function PriceFunction() {
                 document.getElementById("Price").style.fontStyle = "italic";
                 document.getElementById("Price").style.fontStyle = "bold";
                 if(pb.disabled == false){
-                    ob.className = "white-button small-switch-button"
-                    pb.className = "light-grey-button small-switch-button"
+	                ob.className = "white-button small-switch-button"
+	                pb.className = "light-grey-button small-switch-button"
                 pb.disabled = true;
                 ob.disabled = false;
                 var p = "25/h"
@@ -1575,17 +91,131 @@ function PriceFunction() {
                 pb.disabled = false;
                 ob.disabled = true;
                 pb.className = "white-button small-switch-button"
-                    ob.className = "light-grey-button small-switch-button"
+	                ob.className = "light-grey-button small-switch-button"
                 var p = "50/h"
                 document.getElementById("Price").innerHTML = p.bold();
                 }    
                 }
-        </script>
+                </script>
+
+                <div class="col-lg-4 col-md-5 xl-b-margin">
+                    <div class="well top-border-green-well clearfix" style="padding-top:30px; padding-bottom:30px;
+                height:320px">
+                        <div class="row l-margin">
+                            <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                <p><img alt="Check" class="right-margin" src="images/check.png" width="30px"></p>
+                            </div>
+
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                <p style="margin-top:0px"><b>10小时的知识整理，串讲，轻松应对考试。</b></p>
+                            </div>
+                        </div>
+
+                        <div class="row l-b-margin">
+                            <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                <p><img alt="Check" class="right-margin" src="images/check.png" width="30px"></p>
+                            </div>
+
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                <p style="margin-top:0px"><b>你在网上搜索不到的历年期末考题精讲。</b></p>
+                            </div>
+                        </div>
+
+                        <div class="row l-b-margin">
+                            <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                <p><img alt="Check" class="right-margin" src="images/check.png" width="30px"></p>
+                            </div>
+
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                <p style="margin-top:0px"><b>精心整理的学霸笔记，全真期末模拟考试。</b></p>
+                            </div>
+                        </div>
+
+                        <div class="row l-margin">
+                            <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                <p><img alt="Check" class="right-margin" src="images/check.png" width="30px"></p>
+                            </div>
+
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                <p style="margin-top:0px"><b>抱大腿，微信讨论群，学霸24小时免费答疑。</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
         <div class="container">
-            <div class="row"></div>
+            <div class=" track-well l-b-margin row">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 top-margin text-space">
+	                <div class="overlay">Coming Soon</div>
+                    <ul class="footer--list">
+                        <li><b><a href="/users/sign_up">Create free account</a></b></li>
+
+                        <li>
+                            <a href="/users/sign_in">Sign-in</a>
+                        </li>
+
+                        <li>
+                            <a href="/courses">Discover all Courses</a>
+                        </li>
+
+                        <li>
+                            <a href="/enroll-team">DataCamp for Teams</a>
+                        </li>
+
+                        <li>
+                            <a href="/terms-of-use">Terms of Use</a>
+                        </li>
+
+                        <li>
+                            <a href="/privacy-policy">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 top-margin text-space">
+	                <div class="overlay">Coming Soon</div>
+                    <ul class="footer--list">
+                        <li><b><a href="http://blog.datacamp.com/" target="_blank">Blog</a></b></li>
+
+                        <li>
+                            <a href="/about">About</a>
+                        </li>
+
+                        <li>
+                            <a href="mailto:mgmt@datacamp.com">Contact</a>
+                        </li>
+
+                        <li>
+                            <a href="https://datacamp.uservoice.com">Feedback</a>
+                        </li>
+
+                        <li>
+                            <a href="http://www.rdocumentation.org" target="_blank">Rdocumentation.org</a>
+                        </li>
+
+                        <li>
+                            <a href="http://www.r-fiddle.org/" target="_blank">R-Fiddle</a>
+                        </li>
+
+                        <li>
+                            <a href="https://teach.datacamp.com/" target="_blank">Teach on DataCamp</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-lg-offset-6 col-md-3 col-md-offset-3 col-sm-4 col-xs-4 text-space">
+	                
+                    <a href="twitter" target="_blank"><img alt="Twitter Logo" class="twitter-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/twitter-6a5067dc2efb237a71046008a09e940d.png"></a> 
+                    <a href="facebook" target="_blank"><img alt="Facebook Logo" class="facebook-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/facebook-8b2ed1afff78708231dbd8dd75d2d22b.png"></a> 
+                    <a href="linkedin" target="_blank"><img alt="LinkedIn Logo" class="linkedin-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/linkedin-509cc1f4f18609fdc0c0b070bae7e651.png"></a>
+
+                    <!--<div class="footer--logo footer-datacamp-position"></div>-->
+                </div>
+            </div><iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
         </div>
     </footer>
 </body>
