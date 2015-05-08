@@ -11,6 +11,20 @@
 </head>
 
 <body>
+    <script type="text/javascript">
+function mouseOver(x)
+    {
+    document.getElementById(x).width = "100"
+    document.getElementById(x).height = "100"
+    }
+    function mouseOut(x)
+    {
+    document.getElementById(x).width = "70"
+    document.getElementById(x).height = "70"
+    }
+    </script> <div onmouseover="mouseOver('b1')" onmouseout="mouseOut('b1')">
+	    <p>shshshs</p><a href="http://www.w3school.com.cn" ><img alt="Visit W3School!" src="images/linghanglogo2.png" width="70" height="70" id="b1"></a>
+    <a href="http://www.w3school.com.cn" onmouseover="mouseOver('b2')" onmouseout="mouseOut('b2')"><img alt="Visit W3School!" src="images/logo.png" width="70" height="70" id="b2"></a></div>
     <!-- Include the template -->
 
     <section class="hero hero-1">
@@ -21,9 +35,8 @@
                 <div class="navbar-header"></div>
 
                 <div id="navbar" class="navbar-collapse collapse navmenu-fixed-right">
-	                <a class="logo" href="index.html">
-                        <img src="images/linghanglogo.psd" width="auto" height="100%">
-                    </a>
+                    <a class="logo" href="index.html"><img src="images/linghanglogo.psd" width="auto" height="100%"></a>
+
                     <ul class="nav navbar-right navbar--list width">
                         <li class="navbar--list-item">
                             <a class="text-white" href="course-list.html">大学课程</a>
@@ -67,8 +80,6 @@
                             <p class="color-light" style="font-size:0.9em;">在4月30日之前报名可享受优惠价格</p>
                         </div>
 
-
-
                         <div style="width: 100%; display: inline-block;">
                             <a class="xl-t-margin rounded-button green-button center-block" href="http://goo.gl/forms/RY9LZkqO8t" style="width:90%;">现在加入</a>
                         </div>
@@ -81,8 +92,8 @@ function PriceFunction() {
                 document.getElementById("Price").style.fontStyle = "italic";
                 document.getElementById("Price").style.fontStyle = "bold";
                 if(pb.disabled == false){
-	                ob.className = "white-button small-switch-button"
-	                pb.className = "light-grey-button small-switch-button"
+                    ob.className = "white-button small-switch-button"
+                    pb.className = "light-grey-button small-switch-button"
                 pb.disabled = true;
                 ob.disabled = false;
                 var p = "25/h"
@@ -91,7 +102,7 @@ function PriceFunction() {
                 pb.disabled = false;
                 ob.disabled = true;
                 pb.className = "white-button small-switch-button"
-	                ob.className = "light-grey-button small-switch-button"
+                    ob.className = "light-grey-button small-switch-button"
                 var p = "50/h"
                 document.getElementById("Price").innerHTML = p.bold();
                 }    
@@ -150,7 +161,10 @@ function PriceFunction() {
         <div class="container">
             <div class=" track-well l-b-margin row">
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 top-margin text-space">
-	                <div class="overlay">Coming Soon</div>
+                    <div class="overlay">
+                        Coming Soon
+                    </div>
+
                     <ul class="footer--list">
                         <li><b><a href="/users/sign_up">Create free account</a></b></li>
 
@@ -177,7 +191,10 @@ function PriceFunction() {
                 </div>
 
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 top-margin text-space">
-	                <div class="overlay">Coming Soon</div>
+                    <div class="overlay">
+                        Coming Soon
+                    </div>
+
                     <ul class="footer--list">
                         <li><b><a href="http://blog.datacamp.com/" target="_blank">Blog</a></b></li>
 
@@ -208,12 +225,7 @@ function PriceFunction() {
                 </div>
 
                 <div class="col-lg-2 col-lg-offset-6 col-md-3 col-md-offset-3 col-sm-4 col-xs-4 text-space">
-	                
-                    <a href="twitter" target="_blank"><img alt="Twitter Logo" class="twitter-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/twitter-6a5067dc2efb237a71046008a09e940d.png"></a> 
-                    <a href="facebook" target="_blank"><img alt="Facebook Logo" class="facebook-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/facebook-8b2ed1afff78708231dbd8dd75d2d22b.png"></a> 
-                    <a href="linkedin" target="_blank"><img alt="LinkedIn Logo" class="linkedin-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/linkedin-509cc1f4f18609fdc0c0b070bae7e651.png"></a>
-
-                    <!--<div class="footer--logo footer-datacamp-position"></div>-->
+                    <a href="twitter" target="_blank"><img alt="Twitter Logo" class="twitter-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/twitter-6a5067dc2efb237a71046008a09e940d.png"></a> <a href="facebook" target="_blank"><img alt="Facebook Logo" class="facebook-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/facebook-8b2ed1afff78708231dbd8dd75d2d22b.png"></a> <a href="linkedin" target="_blank"><img alt="LinkedIn Logo" class="linkedin-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/linkedin-509cc1f4f18609fdc0c0b070bae7e651.png"></a> <!--<div class="footer==logo footer-datacamp-position"></div>-->
                 </div>
             </div><iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
         </div>
