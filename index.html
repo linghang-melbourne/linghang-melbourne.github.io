@@ -11,8 +11,16 @@
 
 <body>
     <!-- Include the template -->
-    <a href="#Top"><img class="goTop" src="images/gotop.png" width="auto" height="auto" alt="Go Top"></a> <a href="#End"><img class="goEnd" src="images/goend.png" width="auto" height="auto" alt="Go End"></a>
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+    ga('create', 'UA-62806158-1', 'auto');
+    ga('send', 'pageview');
+
+    </script> <a href="#Top"><img class="goTop" src="images/gotop.png" width="auto" height="auto" alt="Go Top"></a> <a href="#End"><img class="goEnd" src="images/goend.png" width="auto" height="auto" alt="Go End"></a>
 
     <section id="Top" class="hero hero-1">
         <!-- Static navbar -->
@@ -29,6 +37,10 @@
 
                         <li class="navbar--list-item">
                             <a class="text-white" href="pricing.html">课程价格</a>
+                        </li>
+
+                        <li class="navbar--list-item">
+                            <a class="text-white" href="contact.html">联系我们</a>
                         </li>
                     </ul>
                 </div>
@@ -88,7 +100,7 @@
                                 <img alt="R Programming" class="center-block l-b-margin" height="100" src="./images/shield_1-c1147f93d5c8cd4c2b82c1d37c011b51.png" width="100">
 
                                 <h6 class="text-center" style="color:#516979; font-size:21px"><b>墨大<br>
-                                Quantatitive Method 1</b></h6>
+                                Quantitative Method 1</b></h6>
 
                                 <p class="text-center text-space l-b-margin">统计初步，初等概率论，区间估计和检验假设</p><a class="rounded-button cta-border-button center-block m-button" href="course-list.html#MelB">更多墨大商科课程</a>
                             </div>
@@ -159,8 +171,11 @@
     <footer id="End">
         <div class="container">
             <div class=" track-well l-b-margin row">
+                <div class="overlay">
+                    Coming Soon
+                </div>
+
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 top-margin text-space">
-	                <div class="overlay">Coming Soon</div>
                     <ul class="footer--list">
                         <li><b><a href="/users/sign_up">Create free account</a></b></li>
 
@@ -187,7 +202,6 @@
                 </div>
 
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 top-margin text-space">
-	                <div class="overlay">Coming Soon</div>
                     <ul class="footer--list">
                         <li><b><a href="http://blog.datacamp.com/" target="_blank">Blog</a></b></li>
 
@@ -218,16 +232,10 @@
                 </div>
 
                 <div class="col-lg-2 col-lg-offset-6 col-md-3 col-md-offset-3 col-sm-4 col-xs-4 text-space">
-	                
-                    <a href="twitter" target="_blank"><img alt="Twitter Logo" class="twitter-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/twitter-6a5067dc2efb237a71046008a09e940d.png"></a> 
-                    <a href="facebook" target="_blank"><img alt="Facebook Logo" class="facebook-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/facebook-8b2ed1afff78708231dbd8dd75d2d22b.png"></a> 
-                    <a href="linkedin" target="_blank"><img alt="LinkedIn Logo" class="linkedin-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/linkedin-509cc1f4f18609fdc0c0b070bae7e651.png"></a>
-
-                    <!--<div class="footer--logo footer-datacamp-position"></div>-->
+                    <a href="twitter" target="_blank"><img alt="Twitter Logo" class="twitter-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/twitter-6a5067dc2efb237a71046008a09e940d.png"></a> <a href="facebook" target="_blank"><img alt="Facebook Logo" class="facebook-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/facebook-8b2ed1afff78708231dbd8dd75d2d22b.png"></a> <a href="linkedin" target="_blank"><img alt="LinkedIn Logo" class="linkedin-datacamp-position" src="https://d3egmynekukbig.cloudfront.net/assets/linkedin-509cc1f4f18609fdc0c0b070bae7e651.png"></a> <!--<div class="footer==logo footer-datacamp-position"></div>-->
                 </div>
             </div><iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
         </div>
     </footer>
-
 </body>
 </html>
